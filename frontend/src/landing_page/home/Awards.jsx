@@ -2,7 +2,7 @@ import React from 'react';
 
 function Awards() {
   return (
-    <div className="container mt-5 p-5">
+    <div className="container my-5 p-5">
       <div className="row align-items-center">
         <div className="col-12 col-md-6 mb-4 mb-md-0">
           <img src="media/images/largestBroker.svg" alt="Largest Broker" className="img-fluid" />

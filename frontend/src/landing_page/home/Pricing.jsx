@@ -2,7 +2,7 @@ import React from 'react';
 
 function Pricing() {
   return (
-    <div className="container mt-5 p-4 p-md-5">
+    <div className="container mb-5 p-4 p-md-5">
       <div className="row">
         <div className="col-12 col-md-4 mb-4">
           <h1>Unbeatable pricing</h1>
