@@ -17,7 +17,7 @@ function Stats() {
             <h2 className="fs-3 mt-4 mb-2 text-center text-md-start">No spam or gimmicks</h2>
             <p className="text-muted text-center text-md-start">
               No gimmicks, spam, "gamification", or annoying push <br />notifications. High quality apps that you
-              use at your pace, <br />the way you like.<a className="text-decoration-none"> Our philosophies</a>.
+              use at your pace, <br />the way you like. Our <a className="text-decoration-none"> philosophies</a>.
             </p>
 
             <h2 className="fs-3 mt-4 mb-2 text-center text-md-start">The Zerodha universe</h2>
@@ -40,10 +40,10 @@ function Stats() {
 
           <div className="d-flex flex-column flex-md-row justify-content-center gap-3">
             <a className="text-decoration-none text-primary fw-semibold" href="#">
-              Explore our products
+              Explore our products <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
             <a className="text-decoration-none text-primary fw-semibold" href="#">
-              Try Kite demo
+              Try Kite demo <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
         </div>

@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import "../../custom.css";
+
 
 function Navbar() {
   return (
@@ -24,35 +26,50 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
             <li className="nav-item me-4">
-              <Link className="nav-link active" aria-current="page" to="/signup">
+              <NavLink
+                to="/signup"
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
                 Signup
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-4">
-              <Link className="nav-link active" aria-current="page" to="/about">
+              <NavLink
+                to="/about"
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-4">
-              <Link className="nav-link active" aria-current="page" to="/product">
+              <NavLink
+                to="/product"
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
                 Product
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item me-4">
-              <Link className="nav-link active" aria-current="page" to="/pricing">
+              <NavLink
+                to="/pricing"
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
                 Pricing
-              </Link>
+              </NavLink>
             </li>
-            <li className="nav-item me-1">
-              <Link className="nav-link active" aria-current="page" to="/support">
+            <li className="nav-item">
+              <NavLink
+                to="/support"
+                className={({ isActive }) => "nav-link" + (isActive ? " active" : "")}
+              >
                 Support
-              </Link>
+              </NavLink>
             </li>
 
             <li className="nav-item d-none d-md-block">
               <a
                 href="#"
-                className="nav-link active text-center px-3 py-2"
+                className="nav-link text-center"
                 style={{ minWidth: '90px', display: 'inline-block' }}
               >
                 <i className="fa-solid fa-bars"></i>
