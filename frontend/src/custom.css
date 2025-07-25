@@ -1,0 +1,15 @@
+.heroComponent {
+  background-color: rgb(56, 126, 209);
+  width: 100%;
+  color: white;
+  height: 480px;
+  padding-top: 44px;
+}
+
+.heroRight {
+  padding-left: 130px;
+}
+
+.heroLeft {
+  padding-right: 140px;
+}
