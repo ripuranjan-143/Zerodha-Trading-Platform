@@ -1,0 +1,23 @@
+.heroComponent {
+  background-color: rgb(56, 126, 209);
+  width: 100%;
+  color: white;
+  height: 480px;
+  padding-top: 44px;
+}
+
+.heroRight {
+  padding-left: 130px;
+}
+
+.heroLeft {
+  padding-right: 140px;
+}
+
+.nav-link.active {
+  color: #2879f3 !important; /* Bootstrap primary blue */
+}
+
+.nav-link:hover {
+  color: #3a81ec;              /* Darker blue on hover */
+}
