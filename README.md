@@ -1,2 +1,2 @@
 # Zerodha-Trading-Platform
-First project
+Educational project replicating Zerodha's core features using MongoDB, Express, React, and Node.js.
