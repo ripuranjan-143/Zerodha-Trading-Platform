@@ -1,22 +1,22 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-import axios from "axios";
+import axios from 'axios';
 
-import GeneralContext from "./GeneralContext";
+import GeneralContext from './GeneralContext';
 
-import "./BuyActionWindow.css";
+import './BuyActionWindow.css';
 
 const BuyActionWindow = ({ uid }) => {
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
 
   const handleBuyClick = () => {
-    axios.post("http://localhost:3002/newOrder", {
+    axios.post('http://localhost:3002/newOrder', {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
-      mode: "BUY",
+      mode: 'BUY',
     });
 
     GeneralContext.closeBuyWindow();

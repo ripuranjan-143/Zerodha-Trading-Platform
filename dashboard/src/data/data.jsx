@@ -185,4 +185,14 @@ export const positions = [
     day: '-1.35%',
     isLoss: true,
   },
+  {
+    product: 'CMC',
+    name: 'J.FOOD',
+    qty: 2,
+    avg: 301.75,
+    price: 308.65,
+    net: '+10.04%',
+    day: '1.35%',
+    isLoss: true,
+  },
 ];
